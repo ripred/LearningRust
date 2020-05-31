@@ -1,1 +1,0 @@
-initSidebarItems({"fn":[["goodbye","our `goodbye()` function # Examples ``` extern crate phrases; use phrases::greetings::french;"],["hello","our `hello()` function # Examples ``` extern crate phrases; use phrases::greetings::french;"]]});
