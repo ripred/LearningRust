@@ -29,7 +29,7 @@ fn datatypes_and_mutability() {
     b += 1;
     println!("b = {}", b);
 
-    let c = 1234567890;   // let compiler figure out size.  Signed by default.
+    let c = 123456;   // let compiler figure out size.  Signed by default.
     println!("c = {}, size = {} bytes", c, mem::size_of_val(&c));
 
     // i8 u8 i16 u16 i32 u32 i64 u64
@@ -757,7 +757,7 @@ fn lifetime() {
  * [package]
  * name = "odds_ends"
  * version = "0.1.0"
- * author = ["Trent Wyatt trent@trentwyatt.com"]
+ * authors = ["ripred"]
  *
  * [dependencies]
  * rand = "0.3.12"                      // the package from crates.io we need in our package
@@ -801,8 +801,6 @@ fn main() {
     println!("English: {} {}", english::hello(), english::goodbye());
     println!(" French: {} {}",  french::hello(),  french::goodbye());
 }
-
-
 
 
 
